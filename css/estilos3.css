@@ -1,0 +1,44 @@
+.pie-pagina{
+    border: 2px solid black;
+    margin: 20px;
+    padding: 10px 30px;
+}
+
+#parrafo1 {
+    font-size: 20px;
+    color: greenyellow;
+}
+
+#cometario1{
+    font-size: 25px;
+    text-align: center;
+}
+p,h1,li{
+    color: blueviolet;
+}
+hgroup h2{
+    color: chartreuse;
+}
+article>p{
+    font-size: 10px;
+
+}
+img+p{
+    border: 5px dashed blueviolet;
+}
+li:nth-child(2){
+    font-size: 40px;
+}
+a:hover{
+    color: blue;
+}
+a:visited{
+    color: red;
+}
+a:link{
+    color: azure;
+}
+p::first-letter{
+    color: darkgreen;
+    font-size: 50 px;
+}
